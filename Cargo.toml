@@ -1,0 +1,17 @@
+[package]
+name = "deblock"
+version = "0.1.0"
+authors = ["vmlk <louiskaran@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+web3 = "0.17.0"
+tokio = { version = "1.15.0", features = ["full"]}
+dotenv = "0.15.0"
+reqwest = { version = "0.11.8", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+log4rs = "1.0.0"
+egg-mode = "0.16.0"
